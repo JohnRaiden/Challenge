@@ -1,5 +1,5 @@
 //
-//  RAIViewController.h
+//  RAITableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by John Raiden on 22/06/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RAIViewController : UIViewController
+@interface RAITableViewController : UITableViewController
 
 @end

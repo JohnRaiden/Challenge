@@ -14,13 +14,13 @@
 		EA4BCFEC19575FF10083B1F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4BCFEB19575FF10083B1F0 /* main.m */; };
 		EA4BCFF019575FF10083B1F0 /* RAIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4BCFEF19575FF10083B1F0 /* RAIAppDelegate.m */; };
 		EA4BCFF319575FF10083B1F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4BCFF119575FF10083B1F0 /* Main.storyboard */; };
-		EA4BCFF619575FF10083B1F0 /* RAIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4BCFF519575FF10083B1F0 /* RAIViewController.m */; };
 		EA4BCFF819575FF10083B1F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4BCFF719575FF10083B1F0 /* Images.xcassets */; };
 		EA4BCFFF19575FF10083B1F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4BCFFE19575FF10083B1F0 /* XCTest.framework */; };
 		EA4BD00019575FF10083B1F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4BCFDF19575FF10083B1F0 /* Foundation.framework */; };
 		EA4BD00119575FF10083B1F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4BCFE319575FF10083B1F0 /* UIKit.framework */; };
 		EA4BD00919575FF10083B1F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA4BD00719575FF10083B1F0 /* InfoPlist.strings */; };
 		EA4BD00B19575FF10083B1F0 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4BD00A19575FF10083B1F0 /* UITableViewController_Challenge_SolutionTests.m */; };
+		EA4BD016195764E30083B1F0 /* RAITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4BD015195764E30083B1F0 /* RAITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		EA4BCFEE19575FF10083B1F0 /* RAIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAIAppDelegate.h; sourceTree = "<group>"; };
 		EA4BCFEF19575FF10083B1F0 /* RAIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAIAppDelegate.m; sourceTree = "<group>"; };
 		EA4BCFF219575FF10083B1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA4BCFF419575FF10083B1F0 /* RAIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAIViewController.h; sourceTree = "<group>"; };
-		EA4BCFF519575FF10083B1F0 /* RAIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAIViewController.m; sourceTree = "<group>"; };
 		EA4BCFF719575FF10083B1F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA4BCFFD19575FF10083B1F0 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4BCFFE19575FF10083B1F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EA4BD00619575FF10083B1F0 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		EA4BD00819575FF10083B1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA4BD00A19575FF10083B1F0 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		EA4BD014195764E30083B1F0 /* RAITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAITableViewController.h; sourceTree = "<group>"; };
+		EA4BD015195764E30083B1F0 /* RAITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				EA4BCFEE19575FF10083B1F0 /* RAIAppDelegate.h */,
 				EA4BCFEF19575FF10083B1F0 /* RAIAppDelegate.m */,
 				EA4BCFF119575FF10083B1F0 /* Main.storyboard */,
-				EA4BCFF419575FF10083B1F0 /* RAIViewController.h */,
-				EA4BCFF519575FF10083B1F0 /* RAIViewController.m */,
+				EA4BD014195764E30083B1F0 /* RAITableViewController.h */,
+				EA4BD015195764E30083B1F0 /* RAITableViewController.m */,
 				EA4BCFF719575FF10083B1F0 /* Images.xcassets */,
 				EA4BCFE619575FF10083B1F0 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4BD016195764E30083B1F0 /* RAITableViewController.m in Sources */,
 				EA4BCFEC19575FF10083B1F0 /* main.m in Sources */,
 				EA4BCFF019575FF10083B1F0 /* RAIAppDelegate.m in Sources */,
-				EA4BCFF619575FF10083B1F0 /* RAIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
